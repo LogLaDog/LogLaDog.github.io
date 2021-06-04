@@ -1,0 +1,144 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+
+li a:hover {
+  background-color: rgb(250, 0, 50);
+  color: white;
+}
+
+.myGallery {
+    padding-left:20px;
+    padding-right:20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.myGallery img {
+  width: 100%;
+}
+
+.myGallery .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.myGallery .item img {
+  vertical-align: middle;
+}
+
+.myGallery .caption {
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  transition: transform .5s;
+  transform: translateY(100%);
+  background: rgba(200, 100, 0, .4);
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+}
+
+.myGallery .item:hover .caption {
+  transform: translateY(0%);
+}
+
+.myGallery2 {
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.myGallery2 img {
+  width: 100%;
+}
+
+.myGallery2 .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.myGallery2 .item img {
+  vertical-align: middle;
+}
+
+.myGallery2 .caption {
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  transition: transform .5s;
+  transform: translateY(100%);
+  background: rgba(255, 0, 10, .4);
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+}
+
+.myGallery2 .item:hover .caption {
+  transform: translateY(0%);
+}
+
+.myGallery3 {
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.myGallery3 img {
+  width: 100%;
+}
+
+.myGallery3 .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.myGallery3 .item img {
+  vertical-align: middle;
+}
+
+.myGallery3 .caption {
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  transition: transform .5s;
+  transform: translateY(100%);
+  background: rgba(0, 100, 100, .4);
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+}
+
+.myGallery3 .item:hover .caption {
+  transform: translateY(0%);
+}
+
+.banner{
+    height: 10px;
+    margin-bottom: 20px;
+    background-color:rgb(250, 0, 50);
+    margin-left:20px;
+    margin-right: 20px;
+}
